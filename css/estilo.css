@@ -1,0 +1,105 @@
+body{
+	background-color: #000000;
+}
+
+#contenedor{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+h1, h2{margin-top: 25px;
+	color: #ffffff;
+	font-family: arial;
+	margin-bottom: 10px; 
+	text-align: left;
+}
+
+.filter1{
+	filter: saturate(5);
+	
+}
+
+.filter2{
+	filter: hue-rotate(150deg);
+	
+}
+
+
+p{  padding:1%;
+	column-count: 2;
+	column-gap: 40px;
+	column-rule: 1px solid #f00;
+	border-color: #f00;
+	border-width: 2px;
+	border-style: solid;
+	color: #ffffff;
+	font-family: arial;
+}
+
+.ejercicio {
+		color: #ffffff;
+		font-family: arial;
+		text-align: justify;
+		font-size: 20px;
+
+}
+
+.conejo{
+	border-radius:30px;
+}
+
+
+.multifondo {
+	width: 960px;
+	height: 640px;
+	background-color: green;
+	background:
+       	  url(../img/sol.png) left top no-repeat,
+       	  url(../img/vaca.png) right bottom no-repeat,
+       	  url(../img/paisaje.png) 0 0 no-repeat;
+
+}
+
+ 
+	
+ 
+
+
+
+
+.transparencia{
+width: 960px;
+height: 640px;
+background-color:red;
+opacity:0.5;
+filter:alpha(opacity=50);
+color:white;
+padding:1%;
+
+}
+
+.degradado{
+font-size:20px;
+padding:1%;
+width: 960px;
+height: 640px;
+background: linear-gradient(
+		to top,
+		orange,
+		blue 250px,
+		red 
+	); 
+}
+
+
+
+
+.sombra{
+width: 960px;
+height: 640px;
+background:url(../img/paisaje.png) 0 0 no-repeat;
+box-shadow: 20px 45px 20px 30px  #ffff00;
+}
+
