@@ -1,6 +1,9 @@
 body{
+font-family: 'Kaisei HarunoUmi', serif;
 	background-color: #000000;
 }
+
+
 
 #contenedor{
 	width: 960px;
@@ -11,7 +14,6 @@ body{
 
 h1, h2{margin-top: 25px;
 	color: #ffffff;
-	font-family: arial;
 	margin-bottom: 10px; 
 	text-align: left;
 }
@@ -27,7 +29,8 @@ h1, h2{margin-top: 25px;
 }
 
 
-p{  padding:1%;
+p{  
+	padding:1%;
 	column-count: 2;
 	column-gap: 40px;
 	column-rule: 1px solid #f00;
@@ -35,12 +38,10 @@ p{  padding:1%;
 	border-width: 2px;
 	border-style: solid;
 	color: #ffffff;
-	font-family: arial;
 }
 
 .ejercicio {
 		color: #ffffff;
-		font-family: arial;
 		text-align: justify;
 		font-size: 20px;
 
@@ -102,4 +103,5 @@ height: 640px;
 background:url(../img/paisaje.png) 0 0 no-repeat;
 box-shadow: 20px 45px 20px 30px  #ffff00;
 }
+
 
